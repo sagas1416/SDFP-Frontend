@@ -5,13 +5,13 @@ import { IndexComponent } from './paginas/index/index.component';
 import { RegistroComponent } from './user/registro/registro.component';
 import { LoginComponent } from './user/login/login.component';
 import { ContactoComponent } from './informacion/contacto/contacto.component';
-
+import { PaginaPrincipalComponent } from "./paginas/pagina-principal/pagina-principal.component";
 const routes: Routes = [
   {path: '', component: IndexComponent},
   {path: 'registro', component: RegistroComponent},
-  {path: 'login', component: LoginComponent},
+  {path: 'login', component: PaginaPrincipalComponent},
   {path: 'contacto', component: ContactoComponent},
-  
+  {path: 'Principal', component: PaginaPrincipalComponent},
 ];
 
 @NgModule({

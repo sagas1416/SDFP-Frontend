@@ -27,7 +27,8 @@ body {
 
 #info {
     padding-left: 5%;
-    padding-right: 5%
+    padding-right: 5%;
+    width: 100%;
 }
 
 #video {
@@ -42,6 +43,6 @@ body {
 }
 
 #misi {
-    float: left;
+    float: right;
     width: 40%;
 }
