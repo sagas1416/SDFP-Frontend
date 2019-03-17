@@ -6,13 +6,16 @@ import { RegistroComponent } from './user/registro/registro.component';
 import { LoginComponent } from './user/login/login.component';
 import { ContactoComponent } from './informacion/contacto/contacto.component';
 import { PaginaPrincipalComponent } from "./paginas/pagina-principal/pagina-principal.component";
+import { Page404Component } from './paginas/page404/page404.component';
+
 const routes: Routes = [
   {path: '', component: IndexComponent},
   {path: 'registro', component: RegistroComponent},
   {path: 'login', component: LoginComponent},
   {path: 'contacto', component: ContactoComponent},
   {path: 'Principal', component: PaginaPrincipalComponent},
-  {path: '**', component: IndexComponent },
+  {path: '**', component: Page404Component },
+
   
 ];
 

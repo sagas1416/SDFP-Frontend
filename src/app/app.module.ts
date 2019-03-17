@@ -11,6 +11,7 @@ import { ContactoComponent } from './informacion/contacto/contacto.component';
 import { FooterComponent } from './paginas/footer/footer.component';
 import { PaginaPrincipalComponent } from './paginas/pagina-principal/pagina-principal.component';
 import { MemuPrincipalComponent } from './menus/memu-principal/memu-principal.component';
+import { Page404Component } from './paginas/page404/page404.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MemuPrincipalComponent } from './menus/memu-principal/memu-principal.co
     ContactoComponent,
     FooterComponent,
     PaginaPrincipalComponent,
-    MemuPrincipalComponent
+    MemuPrincipalComponent,
+    Page404Component
   ],
   imports: [
     BrowserModule,
