@@ -9,9 +9,11 @@ import { PaginaPrincipalComponent } from "./paginas/pagina-principal/pagina-prin
 const routes: Routes = [
   {path: '', component: IndexComponent},
   {path: 'registro', component: RegistroComponent},
-  {path: 'login', component: PaginaPrincipalComponent},
+  {path: 'login', component: LoginComponent},
   {path: 'contacto', component: ContactoComponent},
   {path: 'Principal', component: PaginaPrincipalComponent},
+  {path: '**', component: IndexComponent },
+  
 ];
 
 @NgModule({
