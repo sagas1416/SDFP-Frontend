@@ -8,6 +8,9 @@ import { MenuComponent } from './menus/menu/menu.component';
 import { AppRoutingModule } from './app-routing.module';
 import { IndexComponent } from './paginas/index/index.component';
 import { ContactoComponent } from './informacion/contacto/contacto.component';
+import { FooterComponent } from './paginas/footer/footer.component';
+import { PaginaPrincipalComponent } from './paginas/pagina-principal/pagina-principal.component';
+import { MemuPrincipalComponent } from './menus/memu-principal/memu-principal.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ContactoComponent } from './informacion/contacto/contacto.component';
     LoginComponent,
     MenuComponent,
     IndexComponent,
-    ContactoComponent
+    ContactoComponent,
+    FooterComponent,
+    PaginaPrincipalComponent,
+    MemuPrincipalComponent
   ],
   imports: [
     BrowserModule,

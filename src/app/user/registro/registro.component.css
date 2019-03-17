@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+}
+
+.cuadro input,
+select,
+textarea {
+    border-radius: 5px;
+    padding: 7px;
+    width: 100%;
+}
+
+.cuadro input:focus {
+    box-shadow: 5px 5px 10px black;
+}
+
+.cuadro {
+    text-align: center;
+    color: white;
+    font: sans-serif;
+    width: 400px;
+    padding: 30px;
+    background: #7AB7FF;
+    box-shadow: 5px 5px 20px black;
+}
+
+.boton {
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border-radius: 6px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+}
