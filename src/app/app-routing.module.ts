@@ -12,6 +12,8 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: 'contacto', component: ContactoComponent},
   {path: 'Principal', component: PaginaPrincipalComponent},
+  {path: '**', component: IndexComponent },
+  
 ];
 
 @NgModule({
