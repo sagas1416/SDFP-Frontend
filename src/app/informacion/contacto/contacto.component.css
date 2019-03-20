@@ -1,0 +1,20 @@
+body {
+    margin-inline-end: 2px;
+    height: 100%;
+}
+
+#info {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+}
+
+#tel {
+    float: left;
+    width: 40%;
+}
+
+#email {
+    float: right;
+    width: 40%;
+}
