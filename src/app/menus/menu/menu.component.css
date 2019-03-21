@@ -1,45 +1,34 @@
-#logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background: #323639;
-    /*background: #00a4d3 para color celeste*/
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-    padding-right: 30px;
-    margin: 0;
-    padding-left: 30;
-    float: left;
-}
-
 #logo2 {
     width: 50px;
     height: 50px;
 }
 
-#header-prin {
-    margin: auto;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+#nava ul li img {
+    float: left;
 }
 
 #nava {
+    margin: auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #323639;
+}
+
+#nava ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background: #323639;
     /*background: #00a4d3 para color celeste*/
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-    padding-left: 850px;
-    padding-right: 30px;
     margin: 0;
 }
 
-#nava ul,
-ol {
-    list-style: none;
+#nava ul {
+    padding-left: 850px;
+    padding-right: 30px;
 }
 
-#nava li {
+#nava ul li {
     text-align: right;
     background-color: #323639;
     color: #fff;
@@ -47,7 +36,7 @@ ol {
     display: block;
 }
 
-#nava li a {
+#nava ul li a {
     text-align: right;
     background-color: #323639;
     color: #fff;
@@ -56,25 +45,10 @@ ol {
     display: block;
 }
 
-#nava li a:hover {
+#nava ul li a:hover {
     background-color: #000000;
 }
 
-#nava li ul {
-    display: none;
-    position: absolute;
-    min-width: 140px;
-}
-
-#nava li:hover>ul {
+#nava ul li:hover>ul {
     display: block;
-}
-
-#nava li ul li {
-    position: relative;
-}
-
-#nava li ul li ul {
-    right: -140px;
-    top: 0px;
 }
