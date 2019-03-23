@@ -1,18 +1,37 @@
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+footer {
     width: 100%;
-    background-color: black;
-    color: white;
+    color: #fff;
+    background-color: #323639;
+    padding: 20px 4px;
+    padding-top: 0%;
     text-align: center;
+    position: relative;
+    clear: both;
 }
 
-#youtube {
-    width: 50px;
-    height: 50px;
+.social-icon {
+    margin: 7px 7px;
+    transition: opacity .4s ease-in;
+    -moz-transition: opacity .4s ease-in;
+    -webkit-transition: opacity .4s ease-in;
+    -o-transition: opacity .4s ease-in;
+    -ms-transition: opacity .4s ease-in;
 }
 
-.rowx {
-    text-align: center;
+.social-icon:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity .4s ease-in;
+    -moz-transition: opacity .4s ease-in;
+    -webkit-transition: opacity .4s ease-in;
+    -o-transition: opacity .4s ease-in;
+    -ms-transition: opacity .4s ease-in;
+}
+
+.social-icon:focus {
+    outline: none;
+}
+
+.tittles-pages-logo {
+    font-family: "FontFamilyLogo";
 }
