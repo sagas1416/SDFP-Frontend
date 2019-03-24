@@ -21,25 +21,18 @@
 
 
 <div class="tab-content">
-    <div id="productos" class="tab-pane fade in active">
-        <br>
-
-    </div>
-    <div id="Libros" class="tab-pane fade">
-        <br>
-
-    </div>
-    <div id="Papeleria" class="tab-pane fade">
-        <br>
-
-    </div>
-    <div id="Estudiantes" class="tab-pane fade">
-        <br>
-
-    </div>
-    <div id="Oficina" class="tab-pane fade">
-        <br>
-
+    <h1>Productos</h1>
+    <div class="card-columns">
+        <div class="card" *ngFor="let productos of productos">
+            <img [src]="productos.img" class="card-img-top
+img-fluid" [alt]="productos.nombre">
+            <div class="card-body">
+                <h5 class="card-title">{{ productos.nombre }}</h5>
+                <p class="card-text"> {{ productos.descripcion }}
+                </p>
+                <p class="card-text"><small class="text-muted">{{productos.precio }}</small></p>
+            </div>
+        </div>
     </div>
 
 </div>
