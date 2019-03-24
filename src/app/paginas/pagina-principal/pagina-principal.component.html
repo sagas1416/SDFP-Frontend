@@ -25,25 +25,20 @@
         <div class="row">
             <div class="col-xs-12">
                 <div id="myTabContent" class="tab-content">
-                    <div role="tabpanel" class="tab-pane fade active in" id="" aria-labelledby="-tab">
-
+                    <div role="tabpanel" class="tab-pane fade active in" aria-labelledby="-tab">
                         <div class="col-xs-12 col-sm-6 col-md-3">
                             <div class="col-xs-12 col-sm-6 col-md-3" *ngFor="let productos of productos">
                                 <div class="thumbnail">
-                                    <img id="car" [src]="productos.img" class="card-img-top
-                        img-fluid" [alt]="productos.nombre">
+                                    <img class="foto" [src]="productos.img" [alt]="productos.nombre">
                                     <div class="caption">
-                                        <div class="card-body">
-                                            <h4 class="card-title">{{ productos.nombre }}</h4>
-                                            <p class="card-text"> {{ productos.descripcion }}
-                                            </p>
-                                            <p class="card-text"><small class="text-muted">{{productos.precio }}</small></p>
-                                            <p class="text-center">
-                                                <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i>&nbsp; Detalles</a>&nbsp;&nbsp;
-                                                <button value="" class="btn btn-success btn-sm botonCarrito"><i class="fa fa-shopping-cart"></i>&nbsp; Añadir</button>
-                                            </p>
-
-                                        </div>
+                                        <h4>{{ productos.nombre }}</h4>
+                                        <p> {{ productos.descripcion }}
+                                        </p>
+                                        <p>{{productos.precio }}</p>
+                                        <p class="text-center">
+                                            <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i>&nbsp; Detalles</a>&nbsp;&nbsp;
+                                            <button value="" class="btn btn-success btn-sm botonCarrito"><i class="fa fa-shopping-cart"></i>&nbsp; Añadir</button>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
