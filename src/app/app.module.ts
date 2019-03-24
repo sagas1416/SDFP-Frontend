@@ -13,9 +13,13 @@ import { PaginaPrincipalComponent } from './paginas/pagina-principal/pagina-prin
 import { MemuPrincipalComponent } from './menus/memu-principal/memu-principal.component';
 import { Page404Component } from './paginas/page404/page404.component';
 import { EstudiantilComponent } from './paginas/categorias/estudiantil/estudiantil.component';
+<<<<<<< HEAD
 
+=======
+>>>>>>> 616a946d41139b20f68e9995f8243b8dced04847
 import { OficinaComponent } from './paginas/categorias/oficina/oficina.component';
 import { LibrosComponent } from './paginas/categorias/libros/libros.component';
+import { PapeleriaComponent } from './paginas/categorias/papeleria/papeleria.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +35,8 @@ import { LibrosComponent } from './paginas/categorias/libros/libros.component';
     Page404Component,
     EstudiantilComponent,
     OficinaComponent,
-    LibrosComponent
+    LibrosComponent,
+    PapeleriaComponent
   ],
   imports: [
     BrowserModule,
