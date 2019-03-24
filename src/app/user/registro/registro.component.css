@@ -12,7 +12,6 @@ select,
 textarea {
     border-radius: 5px;
     padding: 7px;
-    width: 100%;
 }
 
 .cuadro input:focus {
@@ -20,6 +19,7 @@ textarea {
 }
 
 .cuadro {
+    display: inline-block;
     text-align: center;
     color: white;
     font: sans-serif;

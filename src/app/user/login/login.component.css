@@ -15,6 +15,7 @@ textarea {
 }
 
 .cuadro {
+    display: inline-block;
     text-align: center;
     color: white;
     font: sans-serif;

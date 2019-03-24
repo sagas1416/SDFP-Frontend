@@ -15,7 +15,7 @@ import { Page404Component } from './paginas/page404/page404.component';
 import { EstudiantilComponent } from './paginas/categorias/estudiantil/estudiantil.component';
 import { OficinaComponent } from './paginas/categorias/oficina/oficina.component';
 import { LibrosComponent } from './paginas/categorias/libros/libros.component';
-
+import { PapeleriaComponent } from './paginas/categorias/papeleria/papeleria.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +32,8 @@ import { LibrosComponent } from './paginas/categorias/libros/libros.component';
     EstudiantilComponent,
     OficinaComponent,
     LibrosComponent,
+    PapeleriaComponent,
+
   ],
   imports: [
     BrowserModule,
