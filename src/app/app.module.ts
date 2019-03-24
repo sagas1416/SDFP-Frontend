@@ -17,6 +17,9 @@ import { OficinaComponent } from './paginas/categorias/oficina/oficina.component
 import { LibrosComponent } from './paginas/categorias/libros/libros.component';
 import { PapeleriaComponent } from './paginas/categorias/papeleria/papeleria.component';
 
+import { ProductosService } from './services/productos.service';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +41,8 @@ import { PapeleriaComponent } from './paginas/categorias/papeleria/papeleria.com
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ProductosService],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
