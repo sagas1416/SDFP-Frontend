@@ -18,6 +18,12 @@ import { LibrosComponent } from './paginas/categorias/libros/libros.component';
 import { PapeleriaComponent } from './paginas/categorias/papeleria/papeleria.component';
 
 import { ProductosService } from './services/productos.service';
+import { EstudiantilService } from './services/estudiantil.service';
+import { OficinaService } from './services/oficina.service';
+import { LibrosService } from './services/libros.service';
+import { PapeleriaService } from './services/papeleria.service';
+
+
 
 
 @NgModule({
@@ -42,7 +48,13 @@ import { ProductosService } from './services/productos.service';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [ProductosService],
+  providers: [
+  ProductosService,
+  EstudiantilService,
+  OficinaService,
+  LibrosService,
+  PapeleriaService
+  ],
 
   bootstrap: [AppComponent]
 })

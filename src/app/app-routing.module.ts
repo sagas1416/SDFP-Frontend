@@ -7,6 +7,7 @@ import { LoginComponent } from './user/login/login.component';
 import { ContactoComponent } from './informacion/contacto/contacto.component';
 import { PaginaPrincipalComponent } from "./paginas/pagina-principal/pagina-principal.component";
 import { Page404Component } from './paginas/page404/page404.component';
+import { EstudiantilComponent } from './paginas/categorias/estudiantil/estudiantil.component';
 
 const routes: Routes = [
   {path: '', component: IndexComponent},
@@ -14,8 +15,9 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: 'contacto', component: ContactoComponent},
   {path: 'Principal', component: PaginaPrincipalComponent},
+  {path: 'estudiantil', component: EstudiantilComponent},
   {path: '**', component: Page404Component },
-
+  
   
 ];
 
