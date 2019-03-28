@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PapeleriaService} from 'src/app/services/papeleria.service';
 
 @Component({
   selector: 'app-papeleria',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PapeleriaComponent implements OnInit {
 
-  constructor() { }
+  constructor( private papeleriaService: PapeleriaService) { }
+  papeleria: any[] = [];
 
   ngOnInit() {
+    this.papeleria = this.papeleriaService.getPapeleria();
+    console.log(this.papeleria);
   }
 
 }

@@ -1,3 +1,29 @@
-<p>
-  estudiantil works!
-</p>
+<section id="store">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+
+                <div id="myTabContent" class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade active in" id="" aria-labelledby="-tab">
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="thumbnail" *ngFor="let estudiantil of estudiantil">
+                                <a href=""><img id="foto" [src]="estudiantil.img" class="card-img-top
+              img-fluid" [alt]="estudiantil.nombre"></a>
+                                <div class="caption">
+                                    <h4>{{ estudiantil.nombre }}</h4><br>
+                                    <p>{{ estudiantil.descripcion }}</p>
+                                    <p>{{ estudiantil.precio }}</p>
+                                    <p class="text-center">
+                                        <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i>&nbsp; Detalles</a>&nbsp;&nbsp;
+                                        <button value="" class="btn btn-success btn-sm botonCarrito"><i class="fa fa-shopping-cart"></i>&nbsp; Añadir</button>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
