@@ -23,30 +23,12 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-
                 <div id="myTabContent" class="tab-content">
-<<<<<<< HEAD
-                    <div role="tabpanel" class="tab-pane fade active in" aria-labelledby="-tab">
-                        <div class="col-xs-12 col-sm-6 col-md-3">
-                            <div class="col-xs-12 col-sm-6 col-md-3" *ngFor="let productos of productos">
-                                <div class="thumbnail">
-                                    <img class="foto" [src]="productos.img" [alt]="productos.nombre">
-                                    <div class="caption">
-                                        <h4>{{ productos.nombre }}</h4>
-                                        <p> {{ productos.descripcion }}
-                                        </p>
-                                        <p>{{productos.precio }}</p>
-                                        <p class="text-center">
-                                            <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i>&nbsp; Detalles</a>&nbsp;&nbsp;
-                                            <button value="" class="btn btn-success btn-sm botonCarrito"><i class="fa fa-shopping-cart"></i>&nbsp; Añadir</button>
-                                        </p>
-                                    </div>
-=======
                     <div role="tabpanel" class="tab-pane fade active in" id="" aria-labelledby="-tab">
                         <div class="col-xs-12 col-sm-6 col-md-3">
                             <div class="thumbnail" *ngFor="let productos of productos">
                                 <a href=""><img id="foto" [src]="productos.img" class="card-img-top
-                img-fluid" [alt]="productos.nombre"></a>
+                                img-fluid" [alt]="productos.nombre"></a>
                                 <div class="caption">
                                     <h4>{{ productos.nombre }}</h4><br>
                                     <p>{{ productos.descripcion }}</p>
@@ -55,8 +37,6 @@
                                         <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i>&nbsp; Detalles</a>&nbsp;&nbsp;
                                         <button value="" class="btn btn-success btn-sm botonCarrito"><i class="fa fa-shopping-cart"></i>&nbsp; Añadir</button>
                                     </p>
-
->>>>>>> caa3b46e3dfd5e6be07ac20f624fe33a0f4a6545
                                 </div>
                             </div>
                         </div>

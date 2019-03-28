@@ -10,12 +10,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-<<<<<<< HEAD
-.foto {
-    width: 250px;
-=======
 #foto {
     width: 100px;
->>>>>>> caa3b46e3dfd5e6be07ac20f624fe33a0f4a6545
     height: 150px;
 }
