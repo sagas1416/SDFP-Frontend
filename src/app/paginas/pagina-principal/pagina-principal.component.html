@@ -1,9 +1,7 @@
 <header>
     <app-memu-principal></app-memu-principal>
 </header>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
 <div id="banner">
     <img id="banner-inicio" src="assets/img/banner.png">
 </div>
@@ -19,35 +17,31 @@
     <li><a data-toggle="tab" href="#Oficina">Oficina</a></li>
 </ul>
 
-<section id="store">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <div id="myTabContent" class="tab-content">
-                    <div role="tabpanel" class="tab-pane fade active in" id="" aria-labelledby="-tab">
-                        <div class="col-xs-12 col-sm-6 col-md-3">
-                            <div class="thumbnail" *ngFor="let productos of productos">
-                                <a href=""><img id="foto" [src]="productos.img" class="card-img-top
-                                img-fluid" [alt]="productos.nombre"></a>
-                                <div class="caption">
-                                    <h4>{{ productos.nombre }}</h4><br>
-                                    <p>{{ productos.descripcion }}</p>
-                                    <p>{{productos.precio }}</p>
-                                    <p class="text-center">
-                                        <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i>&nbsp; Detalles</a>&nbsp;&nbsp;
-                                        <button value="" class="btn btn-success btn-sm botonCarrito"><i class="fa fa-shopping-cart"></i>&nbsp; Añadir</button>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+<div class="tab-content">
+    <div id="productos" class="tab-pane fade in active">
+        <app-oficina></app-oficina>
+
     </div>
-</section>
-<br>
-<br><br><br><br><br><br><br><br><br><br>
-<footer>
-    <app-footer></app-footer>
-</footer>
+    <div id="Libros" class="tab-pane fade">
+        <br>
+        <app-libros></app-libros>
+    </div>
+    <div id="Papeleria" class="tab-pane fade">
+
+        <app-papeleria></app-papeleria>
+    </div>
+    <div id="Estudiantes" class="tab-pane fade">
+
+        <app-estudiantil></app-estudiantil>
+    </div>
+    <div id="Oficina" class="tab-pane fade">
+
+        <app-oficina></app-oficina>
+    </div>
+
+    <br>
+    <br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        <app-footer></app-footer>
+    </footer>
