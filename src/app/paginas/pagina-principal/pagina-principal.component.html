@@ -2,46 +2,121 @@
     <app-memu-principal></app-memu-principal>
 </header>
 
-<div id="banner">
-    <img id="banner-inicio" src="assets/img/banner.png">
-</div>
-<br>
-<hr id="hr" />
-<br>
-<br>
-<ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#productos">Productos</a></li>
-    <li><a data-toggle="tab" href="#Libros">Libros</a></li>
-    <li><a data-toggle="tab" href="#Papeleria">Papeleria</a></li>
-    <li><a data-toggle="tab" href="#Estudiantes">Estudiantes</a></li>
-    <li><a data-toggle="tab" href="#Oficina">Oficina</a></li>
-</ul>
+<body id="container-page-product">
 
-
-<div class="tab-content">
-    <div id="productos" class="tab-pane fade in active">
-        <app-oficina></app-oficina>
-
+    <div id="banner">
+        <img id="banner-inicio" src="assets/img/banner.png">
     </div>
-    <div id="Libros" class="tab-pane fade">
-        <br>
-        <app-libros></app-libros>
-    </div>
-    <div id="Papeleria" class="tab-pane fade">
-
-        <app-papeleria></app-papeleria>
-    </div>
-    <div id="Estudiantes" class="tab-pane fade">
-
-        <app-estudiantil></app-estudiantil>
-    </div>
-    <div id="Oficina" class="tab-pane fade">
-
-        <app-oficina></app-oficina>
-    </div>
-
     <br>
-    <br><br><br><br><br><br><br><br><br><br>
+    <hr id="hr" />
+    <br>
+    <br>
+    <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#productos">Productos</a></li>
+        <li><a data-toggle="tab" href="#Libros">Libros</a></li>
+        <li><a data-toggle="tab" href="#Papeleria">Papeleria</a></li>
+        <li><a data-toggle="tab" href="#Estudiantes">Estudiantes</a></li>
+        <li><a data-toggle="tab" href="#Oficina">Oficina</a></li>
+    </ul>
+
+
+    <div class="tab-content">
+        <div id="productos" class="tab-pane fade in active">
+            <section id="store">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div id="myTabContent" class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade active in" id="" aria-labelledby="-tab">
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <app-papeleria></app-papeleria>
+                                        <app-libros></app-libros>
+                                        <app-oficina></app-oficina>
+                                        <app-estudiantil></app-estudiantil>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <div id="Libros" class="tab-pane fade">
+            <br>
+            <section id="store">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div id="myTabContent" class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade active in" id="" aria-labelledby="-tab">
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+
+                                        <app-libros></app-libros>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <div id="Papeleria" class="tab-pane fade">
+            <section id="store">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div id="myTabContent" class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade active in" id="" aria-labelledby="-tab">
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <app-papeleria></app-papeleria>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <div id="Estudiantes" class="tab-pane fade">
+            <section id="store">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div id="myTabContent" class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade active in" id="" aria-labelledby="-tab">
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <app-estudiantil></app-estudiantil>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="Oficina" class="tab-pane fade">
+            <section id="store">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div id="myTabContent" class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade active in" id="" aria-labelledby="-tab">
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <app-oficina></app-oficina>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
     <footer>
         <app-footer></app-footer>
     </footer>
+</body>
