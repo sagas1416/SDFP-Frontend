@@ -1,6 +1,6 @@
 #logo2 {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 90px;
 }
 
 #nava ul li img {
@@ -34,6 +34,7 @@
     color: #fff;
     text-decoration: none;
     display: block;
+    bottom: 10px;
 }
 
 #nava ul li a {
@@ -51,4 +52,30 @@
 
 #nava ul li:hover>ul {
     display: block;
+}
+
+img.logo {
+    float: left;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+    transition: All 0.5s ease;
+}
+
+p {
+    position: relative;
+    color: #2F3C4F;
+    font-size: 40px;
+    background: white;
+    padding: 20px;
+    margin: -8px -8px 0px -8px;
+    transition: All 0.5s ease;
+}
+
+p.bienvenida {
+    font-size: 10px;
+    position: absolute;
+    top: 10px;
+    left: 90%;
+    color: #808080;
 }

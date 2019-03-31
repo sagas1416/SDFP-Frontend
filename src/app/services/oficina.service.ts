@@ -16,6 +16,18 @@ export class OficinaService {
     img: 'assets/img/productos/oficina/engrapadora.png',
     precio: '$5.00'
     },
+    {
+      nombre: 'perforadora',
+      descripcion: 'perforadora 30/40 pag.',
+      img: 'assets/img/productos/oficina/perforadora.png',
+      precio: '$5.00'
+      },
+      {
+        nombre: 'Tijera',
+        descripcion: 'Tijera Grande.',
+        img: 'assets/img/productos/oficina/tijera.png',
+        precio: '$2.00'
+        },
  ];
 
  getOficina(){

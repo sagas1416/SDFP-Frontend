@@ -22,12 +22,12 @@ textarea {
     width: 400px;
     padding: 50px;
     height: 400px;
-    background: #7AB7FF;
+    background: #00adb5;
     box-shadow: 5px 5px 20px black;
 }
 
 .boton {
-    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #222831, #222831);
     border-radius: 6px;
     font-family: Arial;
     color: #ffffff;

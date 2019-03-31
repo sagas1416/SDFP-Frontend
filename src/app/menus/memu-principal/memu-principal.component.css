@@ -18,8 +18,8 @@ html {
 }
 
 #logo2 {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 #header-prin {
@@ -90,4 +90,30 @@ ol {
     background: #323639;
     border-radius: 5px;
     outline: none;
+}
+
+img.logo {
+    float: left;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+    transition: All 0.5s ease;
+}
+
+p {
+    position: relative;
+    color: #2F3C4F;
+    font-size: 40px;
+    background: white;
+    padding: 20px;
+    margin: -8px -8px 0px -8px;
+    transition: All 0.5s ease;
+}
+
+p.bienvenida {
+    font-size: 10px;
+    position: absolute;
+    top: 10px;
+    left: 90%;
+    color: #808080;
 }

@@ -16,6 +16,18 @@ export class PapeleriaService {
     img: 'assets/img/productos/papeleria/cuadriculas.jpg',
     precio: '$0.20'
     },
+    {
+      nombre: 'Papel bond de clores',
+      descripcion: 'papel bond de colores',
+      img: 'assets/img/productos/papeleria/bond-color.png',
+      precio: '$0.05'
+      },
+      {
+        nombre: 'Cartulina',
+        descripcion: 'Cartulina Index',
+        img: 'assets/img/productos/papeleria/carulina.png',
+        precio: '$0.20'
+        },
  ];
 
  getPapeleria(){
