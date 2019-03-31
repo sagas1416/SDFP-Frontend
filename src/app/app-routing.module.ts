@@ -10,7 +10,7 @@ import { Page404Component } from './paginas/page404/page404.component';
 import { EstudiantilComponent } from './paginas/categorias/estudiantil/estudiantil.component';
 
 const routes: Routes = [
-  {path: '', component: IndexComponent},
+  {path: 'index', component: IndexComponent},
   {path: 'registro', component: RegistroComponent},
   {path: 'login', component: LoginComponent},
   {path: 'contacto', component: ContactoComponent},

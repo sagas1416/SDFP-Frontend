@@ -23,6 +23,8 @@ import { OficinaService } from './services/oficina.service';
 import { LibrosService } from './services/libros.service';
 import { PapeleriaService } from './services/papeleria.service';
 
+import { DetallesComponent } from './paginas/detalles/detalles.component';
+
 
 
 
@@ -42,6 +44,7 @@ import { PapeleriaService } from './services/papeleria.service';
     OficinaComponent,
     LibrosComponent,
     PapeleriaComponent,
+    DetallesComponent,
 
   ],
   imports: [
@@ -53,7 +56,8 @@ import { PapeleriaService } from './services/papeleria.service';
   EstudiantilService,
   OficinaService,
   LibrosService,
-  PapeleriaService
+  PapeleriaService,
+
   ],
 
   bootstrap: [AppComponent]

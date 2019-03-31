@@ -1,13 +1,12 @@
 body,
 html {
-    height: 100%;
+    width: 100%;
     background-color: #EEEEEE;
+    text-align: center;
 }
 
-#header-prin {
-    margin: auto;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+#banner {
+    text-align: center;
 }
 
 #foto {

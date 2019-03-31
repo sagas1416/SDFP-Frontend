@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class LibrosService {
   private libros: any[] = [
-    { nombre: 'Libros ',
+    { nombre: 'La estrategia oculta ',
     descripcion: 'estrategias',
     img: 'assets/img/productos/libros/estrategias.png',
     precio: '$5.50'
@@ -16,6 +16,12 @@ export class LibrosService {
     img: 'assets/img/productos/libros/Principito.jpg',
     precio: '$2.00'
     },
+    {
+      nombre: 'Alicia en el pais de las maravillas',
+      descripcion: 'Cuento infantil',
+      img: 'assets/img/productos/libros/alicia.png',
+      precio:'$12.50'
+    }
  ];
 
  getLibros(){

@@ -17,7 +17,7 @@ textarea {
 .cuadro {
     display: inline-block;
     text-align: center;
-    color: white;
+    color: rgb(17, 16, 16);
     font: sans-serif;
     width: 400px;
     padding: 50px;
